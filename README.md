@@ -183,3 +183,18 @@ MIT License - см. файл [LICENSE](./LICENSE)
 ---
 
 *AutoML Studio — ML для каждого бизнеса 🚀*
+
+---
+
+## 🔄 CI/CD
+
+Статус сборки: ![CI/CD](https://github.com/YOUR_USERNAME/automl-studio/actions/workflows/ci-cd.yml/badge.svg)
+
+Подробная инструкция по настройке CI/CD в [`docs/CI_CD_SETUP.md`](./docs/CI_CD_SETUP.md)
+
+### Что настроено:
+- ✅ Автоматический линтинг и тесты backend (Python)
+- ✅ Автоматическая сборка и проверка frontend (Node.js)
+- ✅ Build & Push Docker образов в GitHub Container Registry
+- ✅ Авто-деплой на VPS при пуше в main branch
+- ✅ Уведомления (опционально Telegram)

@@ -1,43 +1,47 @@
-```
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# CI/CD and documentation files
+.github/
+docs/
+
+# Logs and temporary files
+*.log
+*.tmp
 
 # Environment variables
 .env
 .env.local
-.env.*
-
-# Build artifacts
-dist/
-build/
-target/
-*.egg-info/
-
-# Logs
-*.log
-
-# Coverage reports
-.coverage
-htmlcov/
-coverage/
+*.env.*
 
 # Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
-*.tmp
 
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
 
-# Docker
-.dockerenv
-```.next/
+# Build artifacts
+dist/
+build/
+target/
+*.pyc
+__pycache__/
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+.mypy_cache/
+.pytest_cache/
+.gradle/
+julia-*/
+zig*/
